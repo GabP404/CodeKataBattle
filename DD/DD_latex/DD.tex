@@ -302,7 +302,7 @@ In this section we show the components of the S2B and their relationships. The f
 \caption{Component Diagram of the CodeKataBattle System}
 \end{figure}
 
-\subsection{Query Manager}
+\subsection{Entity Manager}
 
 This component is responsible for communication with a Database Management System (DBMS). It follows the Adapter design pattern, allowing other components to interact with the DBMS without needing to write any SQL code themselves.
 
@@ -323,6 +323,7 @@ The ckbSP subsystem implements CKB's logic. It provides all the system's feature
     \item \textcolor{bluepoli}{Authentication Manager} This component handles signup, login and logout operations.
     \item \textcolor{bluepoli}{Evaluator} This component is responsible for automatically computing the score of Students' code when a commit is performed. 
     \item \textcolor{bluepoli}{Notification Manager} This component is responsible for the notification dispatch.
+    \item \textcolor{bluepoli}{Model} This component facilitates the interaction with and representation of CKBsp data.
 \end{enumerate}
 
 \subsection{Logical Description of Data}
