@@ -33,10 +33,10 @@ The project utilizes a modern technology stack to ensure scalability, maintainab
 ### Backend:
 - **Java Spring Boot**: Provides the core application logic and handles business processes like challenge setup, team management, scoring, and consolidation.
 - **Java Persistence API (JPA)**: Manages the persistence layer, interacting with the SQL database for storing user data, scores, and results.
+- **Hibernate**: Hibernate was integrated for efficient management of database interactions, ensuring seamless data persistence and retrieval.
 
 ### Database:
 - **SQL Database**: Stores essential data such as users, teams, challenges, scores, and rankings.
 
 ### DevOps:
 - **Docker**: Used to containerize the application, ensuring that the frontend, backend, and database run in isolated environments.
-- **Kubernetes**: Manages the deployment, scaling, and orchestration of Docker containers, enabling smooth scaling and availability.
